@@ -1,13 +1,16 @@
 {
   "name": "spotify-clone",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
+  "homepage": "https://prateekk-2001.github.io/Spotify-Clone",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
