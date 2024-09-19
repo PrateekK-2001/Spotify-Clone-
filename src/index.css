@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* we use this below line for we remove the scroll bar and we scroll the Albumb by shift key */
+::-webkit-scrollbar{
+    display: none;
+}
