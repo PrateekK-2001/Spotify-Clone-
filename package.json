@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://prateekk-2001.github.io/Spotify-Clone",
+  "homepage": "https://prateekk-2001.github.io/Spotify-Clone-",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
